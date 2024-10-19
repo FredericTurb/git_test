@@ -6,13 +6,13 @@ int main()
     
     int a = 0;
     int b = 1;
-    int next; 
+    int c; 
 
     for (int i = 0; i < length; i++) 
         {
-            next = a + b; 
+            c = a + b; 
             a = b;
-            b = next; 
+            b = c; 
             printf("%02d) The Value is: %d\n", i, a);
         }
  return(0);   
