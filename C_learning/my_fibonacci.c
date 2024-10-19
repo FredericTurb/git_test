@@ -13,7 +13,7 @@ int main()
             next = a + b; 
             a = b;
             b = next; 
-            printf("%02d) La valeur est: %d\n", i, a);
+            printf("%02d) The Value is: %d\n", i, a);
         }
  return(0);   
 }
